@@ -12,5 +12,13 @@ function evenOrOdd(number) {
   
   evenOrOdd(7)
 
-//Best solution 
+//Best solution:
   const even_or_odd = number => number % 2 === 0 ? 'Even' : 'Odd';
+
+// A ternary operator evaluates a condition and executes a block of code based on the condition.
+
+// Its syntax is: condition ? expression1 : expression2
+// The ternary operator evaluates the test condition.
+
+// If the condition is true, expression1 is executed.
+// If the condition is false, expression2 is executed.
