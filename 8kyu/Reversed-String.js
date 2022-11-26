@@ -25,10 +25,10 @@ function solution(str){
   function solutionOne(backstring){
     let n = ''
     for(let i of backstring){
-
+// Reads each letter thats being passed in one by one 
         console.log(n)
       n = i+n
-      
+      // passing into the new string each new letter plus whatever was already in there
     }
     return n
   }
