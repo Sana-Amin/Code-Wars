@@ -12,7 +12,7 @@ function solution(str){
      newStr += str[i];
      // Step 2. Create the FOR loop
     /* The starting point of the loop will be (str.length - 1) which corresponds to the 
-       last character of the string, "o"
+       last character of the string, 
        As long as i is greater than or equals 0, the loop will go on
        We decrement i after each iteration */
         // Step 3. Return the reversed string
@@ -28,7 +28,7 @@ function solution(str){
 // Reads each letter thats being passed in one by one 
         console.log(n)
       n = i+n
-      // passing into the new string each new letter plus whatever was already in there
+      // passing into the new string each new letter plus whatever was already in there so "A" will be passed in first then "B"...
     }
     return n
   }
